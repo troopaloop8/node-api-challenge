@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+.flexy {
+    display: flex;
+    flex-flow: row wrap;
+    overflow-y: auto;
+}
+
+
+.box {
+    width: 400px;
+    margin: 10px auto 30px;
+}
+
+.centered {
+    text-align: center;
+    
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black
+}
+
+body {
+    background: linear-gradient(-45deg, rgb(238, 82, 82), rgb(211, 90, 19), rgb(213, 171, 35), rgb(158, 168, 122));
+    background-size: 200% 200%;
+    height: 105vh;
+}
+
